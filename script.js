@@ -18,6 +18,7 @@ fadeElements.forEach(el => observer.observe(el));
 
 document.addEventListener("DOMContentLoaded", function() {
   // Función para obtener los datos
+  console.log("Cargando página")
   async function obtenerDatos() {
     try {
       // Obtener datos del petróleo WTI
